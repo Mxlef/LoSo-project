@@ -1,2 +1,0 @@
-# sbp
-page web logo
