@@ -488,7 +488,7 @@ padding-bottom: 70px;
 	color: #129CF3;
 	text-align: center;
 	opacity: 1;
-	font-size: 50px;
+	font-size: 45px;
 	padding-top: 90px;
 	transition: all 1s;
 	-moz-transition: all 1s;
@@ -569,7 +569,8 @@ padding-bottom: 70px;
 .social-icons ul {
 	list-style: none;
 	display: inline;
-	padding-left: 10px;
+	padding-left: 42%;
+	
 	
 }
 .social-icons ul li {
