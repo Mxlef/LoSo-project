@@ -90,7 +90,7 @@ p{
 }
 .navbar-default .navbar-nav > .active>a,
 .navbar-default .navbar-nav > .active>a:hover,
-.navbar-default .navbar-nav > .active>a:focus, {
+.navbar-default .navbar-nav > .active>a:focus {
 	background-color: transparent;
 	color: #129CF3;
 }
@@ -160,12 +160,12 @@ margin-bottom: 50px;
 	background-color: #129CF3;
 	color: #fff;
 	
-}
+} 
 .btn-tour,
 .btn-tour:focus,
 .btn-tour:active,
 .btn-tour:visited {
-	color: ;
+	color: #B5B5B5;
 	margin-left: 20px;
 	text-transform: uppercase;
 	font-size: 19px;
@@ -442,29 +442,34 @@ padding-bottom: 70px;
 
 /*========= Counter ===========*/
 .counter {
-	background-image: url(../images/counter-bg.jpg);
+	background-image: url("../images/counter-bg.jpg");
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
 	background-position: 50% 50%;
 }
 .counter-overlay {
 	padding-top: 120px;
 	padding-bottom: 120px;
-	background: rgba(0, 0, 0, .4);
+	background: rgba (0, 0, 0, .4);
 }
 .counter-item i {
 	color: #129CF3;
-	font-size: 60px;
+	font-size: 68px;
+	
 }
 .counter-item h2 {
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: #D7DADB;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 35px;
 	margin-top: 15px;
 	margin-bottom: 1px;
+	
 }
 .counter-item p {
 	color: #D7DADB;
@@ -472,9 +477,10 @@ padding-bottom: 70px;
 	margin-top: 0;
 	font-weight: 300;
 	text-transform: uppercase;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Roboto", sans-serif;
 	
 }
+
 /*============ Download Now========== */
 .download-now img {
 	width: 100%;
