@@ -100,7 +100,7 @@ p {
 /* ======= Header ======= */
 
 .header {
-	background-image: url(../images/header-bg.jpg);
+	background-image: url(..//sbp/images/header-bg.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -399,6 +399,9 @@ transition: all 1s;
 	padding: 15px 35px;
 	text-transform: uppercase;
 	transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
 }
 .btn-purchase-now:hover {
 	background-color: #1274B1;
